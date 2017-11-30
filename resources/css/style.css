@@ -1,0 +1,83 @@
+/*Global Variables*/
+.flex {
+  display: flex
+}
+
+/*Navigation and Header*/
+header{
+  height: 64px;
+}
+nav li:first-child {
+  margin-right: auto;
+
+}
+nav img{
+  height: 32px;
+}
+
+nav a {
+  display: inline-block;
+  margin: 10px;
+	padding: 15px;
+}
+nav .logo {
+  background: #4584b1;
+}
+
+/*Banner*/
+.banner{
+  background-color: lightgray;
+}
+.banner img{
+  width: 80%;
+  margin: 24px 32px;
+}
+#text{
+  flex-direction: column;
+  justify-content: center;
+}
+.banner span{
+  display: block;
+  padding: 20px;
+}
+#graybutton{
+  padding: 10px;
+  background-color: gray;
+  width: 10em;
+  text-align: center;
+  color: white;
+}
+
+/*Content*/
+.sidebar{
+  flex-direction: column;
+}
+.news{
+  display: inline-block;
+}
+.news img{
+  padding: 10px;
+  justify-content: flex-start;
+}
+.content{
+  background-color: lightblue;
+}
+.content img{
+  width: 80%;
+  margin: 24px 32px;
+}
+
+/*Start Learning Section*/
+.startlearning{
+  background-color: lightgreen;
+}
+
+/*Thesis Exhibit*/
+.exhibit{
+  background-color: lightyellow;
+}
+
+/*Footer*/
+footer{
+  background-color: gray;
+}
